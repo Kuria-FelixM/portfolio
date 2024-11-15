@@ -1,7 +1,18 @@
 /* NAVBAR */
 .navbar-nav .nav-link {
-    color: #c05353;
+    color: #0c0b0b;
     font-weight: 400;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
+}
+
+@media  screen and (min-width: 1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+        
+    }
+}
+
+.navbar-nav .nav-item {
+    padding: 0 1rem;
 }
