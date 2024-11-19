@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-lg">
-        <a class="navbar-brand" href="#">Felix Muhia</a>
+        <a class="navbar-brand fw-bold" href="#">Kuria Felix Muhia</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,19 +22,19 @@
               <a class="nav-link active" aria-current="page" href="hero">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testimonials</a>
+              <a class="nav-link" href="#testimonials">Testimonials</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link d-lg-none" href="#">Contact</a>
+              <a class="nav-link d-lg-none" href="#contact">Contact</a>
             </li>
           </ul>
           <a class="btn btn-outline-dark d-none d-lg-block" href="#">Let's Talk</a>
@@ -43,20 +43,50 @@
     </nav>
 
     <section class="hero" id="hero">
-      <div class="container">
+      <div class="container-lg">
         <div class="row align-items-center">
-          <div class="col-sn-6">
+          <div class="col-sm-6">
             <h1 class="display-2 fw-bold">Kuria Felix Muhia</h1>
-            <p>Software Engineer || AI & ML</p>
-            <button class="btn btn-outline-dark btn-lg">Projects</button>
+            <p>Junior Full Stack Developer with a solid foundation 
+              in both front-end and back-end technologies. With a passion 
+              for innovation and a track record of delivering impactful projects, 
+              I am eager to contribute my expertise to your team. </p>
+              <button class="btn btn-outline-dark btn-lg">Projects</button>
+
           </div>
-          <div class="col-sn-6">
-            <img src="hero-section.svg" class="img-fluid" alt="">
+          <div class="col-sm-6 text-center">
+            <img src="img/profile.svg" class="img-fluid " alt="">
           </div>
         </div>
       </div>
-
     </section>
+
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="display-5 fw-bold nb-4">About Me</h2>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="display-5 fw-bold nb-4">Projects</h2>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <h2 class="display-5 fw-bold nb-4">Testimonials</h2>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="display-5 fw-bold nb-4">Contact Me</h2>
+      </div>
+    </section>
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>

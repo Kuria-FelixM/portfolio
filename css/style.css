@@ -1,4 +1,8 @@
 /* NAVBAR */
+
+.navbar{
+    background-color: whitesmoke;
+}
 .navbar-nav .nav-link {
     color: #0c0b0b;
     font-weight: 400;
@@ -16,3 +20,30 @@
 .navbar-nav .nav-item {
     padding: 0 1rem;
 }
+
+/* HERO */
+
+ section.hero {
+    background-color: rgb(201, 219, 245);
+    padding-top: 70px;
+}
+
+@media  screen and (max-width: 576px) {
+    section.hero {
+        text-align: center;
+    }
+    section.hero img{
+        width: 68%;
+        height: 30%;
+
+    }
+}
+
+/* SERVICES */
+
+section.services {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem auto 0;
+
+ }
