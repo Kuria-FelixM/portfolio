@@ -1,3 +1,8 @@
+section[class^="container"]{
+    padding: 4rem;
+}
+
+
 /* NAVBAR */
 
 .navbar{
@@ -54,4 +59,15 @@ section.services {
      text-align: center;
      width: 60%;
  }
+}
+
+/* PROJECTS */
+
+section.projects .card{
+    max-width: 17rem;
+    text-align: left;
+}
+
+section.projects .card img{
+    max-width: 70%;
 }
