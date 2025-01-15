@@ -1,7 +1,6 @@
-section[class^="container"]{
-    padding: 4rem;
+section:nth-child(2n){
+    background-color: rgb(201, 219, 245);
 }
-
 
 /* NAVBAR */
 
@@ -49,9 +48,18 @@ section[class^="container"]{
 section.services {
     text-align: center;
     font-size: 2rem;
-    margin: 1rem auto 0;
+    margin: 2rem auto 0;
 
  }
+
+ .card{
+    border: 2px solid #0c0b0b;
+    box-shadow: 4px 4px #0c0b0b;
+ }
+ .card-img-top {
+    height: 250px;
+    object-fit: fit;
+  }
 
  /* ABOUT */
  @media  screen and (min-width: 1024px){
@@ -63,11 +71,24 @@ section.services {
 
 /* PROJECTS */
 
-section.projects .card{
-    max-width: 17rem;
-    text-align: left;
+section.projects {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2rem auto 0;
+
 }
 
-section.projects .card img{
-    max-width: 70%;
+
+
+/* CONTACT */
+
+section.contact{
+    text-align: center;
+}
+
+
+
+.contact.container.row.col a{
+    text-decoration: none;
+    text-decoration-color: blanchedalmond;
 }
